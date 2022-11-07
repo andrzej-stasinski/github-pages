@@ -1,14 +1,14 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
 describe('test', () => {
   it('should', () => {
+    expect(true).toBe(true)
+  })
+})
+
+describe('CounterClass test', () => {
+  it('should pass', () => {
     expect(true).toBe(true)
   })
 })
